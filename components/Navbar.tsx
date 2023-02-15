@@ -14,10 +14,10 @@ const Navbar = () => {
         </div>
         <div className="hidden sm:inline">
             <ul className="flex mr-16">   
-            <li className="text-white pr-5  font-['Poppins'] antialiased font-bold text-lg"><a href={"/about"}>About</a></li>
-            <li className="text-white pr-5 font-['Poppins'] antialiased font-bold text-lg"><a href={"/about"}>Courses</a></li>
-            <li className="text-white pr-5 font-['Poppins'] antialiased font-bold text-lg"><a href={"/about"}>Services</a></li>
-            <li className="text-white pr-5 font-['Poppins'] antialiased font-bold text-lg"><a href={"/#about"}>Contact</a></li>
+            <li className="text-white pr-5  font-['Poppins'] antialiased font-bold text-lg hover:text-slate-300"><a href={"/about"}>About</a></li>
+            <li className="text-white pr-5 font-['Poppins'] antialiased font-bold text-lg hover:text-slate-300"><a href={"/about"}>Courses</a></li>
+            <li className="text-white pr-5 font-['Poppins'] antialiased font-bold text-lg hover:text-slate-300"><a href={"/about"}>Services</a></li>
+            <li className="text-white pr-5 font-['Poppins'] antialiased font-bold text-lg hover:text-slate-300"><a href={"/#about"}>Contact</a></li>
             </ul>
             </div>
         </div>
