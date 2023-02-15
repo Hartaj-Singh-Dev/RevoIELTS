@@ -10,7 +10,7 @@ const Navbar = () => {
 
         </div>
         <div className="sm:hidden pr-1" >
-            <button><i className="fa-solid fa-bars fa-2x text-[#f7f7f7]"></i></button>
+            <button><i className="fa-solid fa-bars fa-2x text-[#cf1934]"></i></button>
         </div>
         <div className="hidden sm:inline">
             <ul className="flex mr-16">   
