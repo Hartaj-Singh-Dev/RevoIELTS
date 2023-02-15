@@ -32,7 +32,7 @@ button.enroll-now {
   font-size: 1.2rem;
   color: #ffff;
   text-transform: uppercase;
-  background: #3F2E60;
+  background: #4c3875;
   transform-style: preserve-3d;
   transition: .15s cubic-bezier(0, 0, .6, 1);
 }
@@ -48,7 +48,7 @@ button.enroll-now::before {
   height: 100%;
   border-radius: inherit;
   background: #4d3876;
-  box-shadow: 0 0 0 2px #b18597, 0 .625em 0 0 #feefef;
+  box-shadow: 0 0 0 2px #cbb8f0, 0 .625em 0 0 #917bbe00;
   transform: translate3d(0, .75em, -1em);
   transition: .15s cubic-bezier(0, 0, .6, 1);
 }
@@ -61,7 +61,7 @@ button.enroll-now:hover {
 }
 
 button.enroll-now:hover::before {
-  box-shadow: 0 0 0 2px #5e4b85, 0 .5em 0 0 #f9ebea;
+  box-shadow: 0 0 0 2px #5e4b85, 0 .5em 0 0 #b29fd900;
   transform: translate3d(0, .5em, -1em);
 }
 
@@ -71,6 +71,6 @@ button.enroll-now:active {
 }
 
 button.enroll-now:active::before {
-  box-shadow: 0 0 0 2px #5f4691, 0 0 #ffeaea;
+  box-shadow: 0 0 0 2px #5f4691, 0 0 #b6a0e200;
   transform: translate3d(0, 0, -1em);
 }
