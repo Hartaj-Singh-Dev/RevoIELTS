@@ -23,9 +23,9 @@ const Navbar = () => {
   return (
     <>
     <nav className="flex w-full p-1 justify-center items-center">
-    <div className="w-[98vw] md:w-[94vw] md:mt-1 bg-[#161616] rounded-2xl flex p-2 justify-between  items-center">
+    <div className=" relative w-[98vw] md:w-[94vw] md:mt-1 bg-[#1c1c1c] rounded-2xl flex p-2 justify-between  items-center">
           <div className="md:ml-5">
-          <a href="/"> <img src="/RoveLogoWhite.svg" className="w-44 md:w-[14rem]" alt="" /> </a> 
+          <a href="/"> <img src="/RoveLogo.svg" className="w-44 md:w-[13rem]" alt="" /> </a> 
         </div>
         <div className="sm:hidden pr-3" >
             <button onClick={()=>{setOpenDrop(!openDrop)}} className="bg-transparent border-0"><i className="fa-solid fa-bars fa-2x text-[#cf1934]"></i></button>
