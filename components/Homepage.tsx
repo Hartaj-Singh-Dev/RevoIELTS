@@ -49,26 +49,26 @@ const Homepage = () => {
          </div>
         )}
          </nav>
-      <section className="h-[90vh] sm:h-full w-full">
-        <div className=" w-full sm:w-1/2 h-full px-4 sm:px-5 py-[3rem] sm:py-[3rem] flex justify-center items-center">
-          <div className="flex flex-col w-full h-full justify-around sm:justify-around ">
+      <section className="h-[90vh] sm:flex sm:h-full w-full">
+        <div className=" w-full md:w-1/2 h-full px-4 md:px-6 py-[3rem] md:py-[2rem] flex justify-end items-center">
+          <div className="flex flex-col w-full h-full md:h-[90%] items-center justify-around ">
             <h1 className="font-['Clash_Display'] text-left text-[3.2rem] sm:text-[4rem] md:text-[5rem]  antialiased tracking-tight leading-none font-bold">
               Welcome to Rove,
              your premier destination,
               for IELTS preparation
             </h1>
-            <h2 className="font-['Archivo'] text-[1.4rem] tracking-tight text-left sm:text-[1.8rem] text-gray-500">
-              Get quality couses with us with the best price ,
+            <h2 className="font-['Archivo'] w-full  text-[1.4rem] tracking-tight sm:text-left  sm:text-[1.5rem] text-gray-500">
+            <p className=" sm:w-1/2">  Get quality couses with us with the best price ,
                you can get the best couse from us
-               .We have top mentors .
+               We have top mentors . </p>
             </h2>
             <button className="mb-3 flex justify-center items-center md:mb-6 bg-[#2a2828] w-[14rem] px-[1rem] py-[1rem]">
               <p className="font-['Poppins']  text-slate-300 text-2xl">enroll now</p>
             </button>
           </div>
         </div>
-        <div className='hidden sm:w-1/2 h-full sm:block'>
-
+        <div className="hidden lg:w-1/2 h-full bg-[url('homepageIMG.png')] bg-center bg-no-repeat bg-cover lg:flex justify-center items-center">
+          
         </div>
        </section>
         </main> 
