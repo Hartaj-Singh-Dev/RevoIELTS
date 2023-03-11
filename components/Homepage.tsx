@@ -41,9 +41,9 @@ const Homepage = () => {
         {openNav && (
           <div ref={dropRef} className="z-30 sm:hidden transition flex justify-center items-center ease-in-out delay-100 duration-700 absolute h-[15rem] w-[14rem] right-1 top-[6.1rem] openNav ">
            <ul className='list-none flex flex-col justify-evenly h-full items-center p-8'>
-             <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-400 hover:text-slate-600 cursor-pointer" >About</li>
-              <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-400 hover:text-slate-600 cursor-pointer" >Courses</li>
-             <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-400 hover:text-slate-600 cursor-pointer" >Contact</li>
+             <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-800 hover:text-slate-600 cursor-pointer" >About</li>
+              <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-800 hover:text-slate-600 cursor-pointer" >Courses</li>
+             <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-800 hover:text-slate-600 cursor-pointer" >Contact</li>
             </ul>
           
          </div>

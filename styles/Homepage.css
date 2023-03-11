@@ -8,7 +8,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 div.openNav{
-background: rgba( 255, 255, 255, 0.3 );
+background: rgba(255, 255, 255, 0.937);
 box-shadow: 0 8px 70px 0 rgba(175, 178, 225, 0.37);
 backdrop-filter: blur( 14px );
 -webkit-backdrop-filter: blur( 14px );
