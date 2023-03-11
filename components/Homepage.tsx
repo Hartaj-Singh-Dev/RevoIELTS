@@ -67,7 +67,7 @@ const Homepage = () => {
             </button>
           </div>
         </div>
-        <div className="hidden lg:w-1/2 h-full bg-[url('homepageIMG.png')] bg-center bg-no-repeat bg-cover lg:flex justify-center items-center">
+        <div className="hidden lg:w-1/2 h-full bg-[url('/homepageIMGCOMP.png')] bg-center bg-no-repeat bg-cover lg:flex justify-center items-center">
           
         </div>
        </section>
