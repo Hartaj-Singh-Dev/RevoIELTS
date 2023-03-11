@@ -62,7 +62,7 @@ const Homepage = () => {
                you can get the best couse from us
                We have top mentors . </p>
             </h2>
-            <button className="mb-3 flex justify-center items-center md:mb-6 bg-[#2a2828] w-[14rem] px-[1rem] py-[1rem]">
+            <button className="sm:mb-3 flex justify-center items-center md:mb-6 bg-[#2a2828] w-[14rem] px-[1rem] py-[1rem]">
               <p className="font-['Poppins']  text-slate-300 text-2xl">enroll now</p>
             </button>
           </div>
