@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../styles/Homepage.css"
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 const Homepage = () => {
   const [openNav, setOpenNav] = useState(false)
@@ -64,11 +65,11 @@ const Homepage = () => {
             </h2>
             <button className="sm:mb-3 flex justify-center items-center md:mb-6 bg-[#2a2828] w-[14rem] px-[1rem] py-[1rem]">
               <p className="font-['Poppins']  text-slate-300 text-2xl">enroll now</p>
+            <ArrowOutwardIcon className="text-xl ml-2 text-slate-50"/>
             </button>
           </div>
         </div>
-        <div className="hidden lg:w-1/2 h-full bg-[url('/homepageIMGCOMP.png')] bg-center bg-no-repeat bg-cover lg:flex justify-center items-center">
-          
+        <div className="hidden  lg:w-1/2 h-full bg-[url('/homepageIMGCOMP.png')] bg-center bg-no-repeat bg-cover lg:flex justify-center items-center">
         </div>
        </section>
         </main> 
