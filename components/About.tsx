@@ -7,12 +7,13 @@ const About = () => {
       <section className="h-screen w-full bg-[#F2F4F7] flex justify-center  before:content-[''] 
       before:absolute before:top-0 before:w-full before:h-[5rem] before:z-10 before:bg-gradient-to-b before:from-[#ECF0FA] before:to-[#F2F4F7]">
         <div className="w-full flex flex-col justify-around sm:w-[95vw] md:w-[90vw] pt-20 ">
-            <div className="w-full  flex flex-col px-2 py-4">
-                <h2 className="text-xl text-slate-900 font-['Poppins'] font-semibold">We are Proud to say that ,
+            <div className="w-full h-[15rem] flex flex-col md:flex-row px-2 py-4">
+                <h2 className="text-xl md:text-2xl text-slate-900 font-['Poppins'] font-semibold">We are Proud to say that ,
                     <span>we are certified by - </span>
                 </h2>
-                <div className="w-full flex flex-col sm:flex-row">
-
+                <div className="w-full md:w-auto flex items-center justify-around mt-6  flex-col sm:flex-row">
+                    <img src="pearsonLogo.png" className="w-[14rem]" alt="" />
+                    <img src="pngwing.com.png" className="w-[14rem] sm: ml-5" alt="" />
                 </div>
             </div>
             <div className="w-full p-2 mt-2 flex flex-col sm:flex-row flex-wrap items-center justify-around">
@@ -39,7 +40,7 @@ const About = () => {
                 </div>
             </div>
             <div className="w-full mt-8">
-               <h2 className="font-['Poppins'] text-center text-[2.7rem] font-semibold">Our Popular Courses</h2> 
+               <h2 className="font-['Poppins'] text-center text-[2.2rem] sm:text-[2.5rem] font-semibold">Our Popular Courses</h2> 
             </div>
         </div>
       </section>
