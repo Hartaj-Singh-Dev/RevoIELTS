@@ -25,7 +25,7 @@ const Homepage = () => {
          <nav className="w-full relative navbar  bg-[#F2F4F7] flex justify-center ">
         <div className='w-full flex justify-between sm:w-[97vw] md:w-[90vw] '>
           <div>
-            <img src="RoveLogo.svg" className='w-[13.5rem]' alt="" />            
+            <img src="RoveLogo.svg" className='w-[12.5rem]' alt="" />            
           </div>
           <div className="hidden sm:flex mr-[4rem] md:mr-[7rem]">
             <ul className='list-none flex h-full items-center px-8'>
@@ -52,12 +52,12 @@ const Homepage = () => {
       <section className="h-[90vh] sm:flex sm:h-full w-full">
         <div className=" w-full md:w-1/2 h-full px-4 md:px-6 py-[3rem] md:py-[2rem] flex justify-end items-center">
           <div className="flex flex-col w-full h-full md:h-[90%] items-center justify-around ">
-            <h1 className="font-['Clash_Display'] text-left text-[3.2rem] sm:text-[4rem] md:text-[5rem]  antialiased tracking-tight leading-none font-bold">
+            <h1 className="font-['Switzer'] text-left text-[3.2rem] sm:text-[4rem] md:text-[5.3rem]  antialiased tracking-tight  font-bold leading-none">
               Welcome to Rove,
              your premier destination,
               for IELTS preparation
             </h1>
-            <h2 className="font-['Archivo'] w-full  text-[1.4rem] tracking-tight sm:text-left  sm:text-[1.5rem] text-gray-500">
+            <h2 className="font-['Switzer'] font-normal w-full  text-[1.4rem] tracking-tight sm:text-left  sm:text-[1.5rem] text-gray-500">
             <p className=" sm:w-1/2">  Get quality couses with us with the best price ,
                you can get the best couse from us
                We have top mentors . </p>
