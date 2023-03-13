@@ -42,29 +42,29 @@ const About = () => {
             <div className="w-full mt-10 sm:mt-[5rem]">
                <h2 className="font-['Poppins'] text-center text-[2.2rem] sm:text-[2.5rem] font-semibold">Our Popular Courses</h2> 
             <div className="w-full flex flex-col flex-wrap sm:flex-row sm:justify-evenly  sm:mt-[4rem] items-center min-h-[50vh] ">
-                <div className="w-[25rem] h-[27rem] mt-3 sm:m-0 rounded-xl shadow-lg">
+                <div className="w-[25rem] h-[26.5rem] mt-3 sm:m-0 rounded-xl shadow-lg">
                     <div className="w-full h-[14rem]">
                         <img src="BeginnerCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
                     </div> 
-                    <div className="h-[13rem] mt-2 px-4  w-full py-3 flex flex-col justify-around items-end ">
+                    <div className="h-[12.5rem] mt-2 px-4  w-full py-3 flex flex-col justify-around items-end ">
                         <h2 className="font-['Roboto'] font-medium text-[1.35rem] ">From Beginner to Fluent: Mastering English for IELTS in 4 Months</h2>                        
                     <button className=" bg-[#020205] text-slate-100 font-['Poppins'] font-medium rounded-lg  text-lg w-[9rem] h-[3rem]">enroll now</button>
                     </div>                   
                 </div>
-                <div className="w-[25rem] h-[27rem] mt-3 sm:m-0 rounded-xl shadow-lg">
+                <div className="w-[25rem] h-[26.5rem] mt-3 sm:m-0 rounded-xl shadow-lg">
                     <div className="w-full h-[14rem]">
                         <img src="IntermediateCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
                     </div>
-                    <div className="h-[13rem] mt-2 px-4  w-full py-3 flex flex-col justify-around items-end ">
+                    <div className="h-[12.5rem] mt-2 px-4  w-full py-3 flex flex-col justify-around items-end ">
                         <h2 className="font-['Roboto'] font-medium text-[1.35rem] ">From Beginner to Fluent: Mastering English for IELTS in 4 Months</h2>
                         <button className=" bg-[#E43A19] text-slate-100 font-['Poppins'] font-medium rounded-lg  text-lg w-[9rem] h-[3rem]">enroll now</button>
                     </div>
                 </div>
-                <div className="w-[25rem] h-[27rem] mt-3 sm:m-0 rounded-xl shadow-lg">
+                <div className="w-[25rem] h-[26.5rem] mt-3 sm:m-0 rounded-xl shadow-lg">
                     <div className="w-full h-[14rem]">
                         <img src="ProfessionalCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
                     </div>
-                    <div className="h-[13rem] mt-2 px-4  w-full py-3 flex flex-col justify-around items-end ">
+                    <div className="h-[12.5rem] mt-2 px-4  w-full py-3 flex flex-col justify-around items-end ">
                         <h2 className="font-['Roboto'] font-medium text-[1.35rem] ">From Beginner to Fluent: Mastering English for IELTS in 4 Months</h2>
                         <button className=" bg-[#111F4D] text-slate-100 font-['Poppins'] font-medium rounded-lg  text-lg w-[9rem] h-[3rem]">enroll now</button>
                     </div>
