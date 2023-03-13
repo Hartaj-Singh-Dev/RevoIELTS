@@ -17,23 +17,23 @@ const About = () => {
                 </div>
             </div>
             <div className="w-full p-2 mt-2 flex flex-col sm:flex-row flex-wrap items-center justify-around">
-                <div className=" sm:w-[25rem] sm:p-5 flex mb-4 sm:m-0 pl-2 h-[6rem] sm:h-[6.5rem] justify-around items-center shadow-lg sm:shadow-xl border border-slate-400 rounded-lg bg-[#f0f2f5]">
+                <div className=" sm:w-[25rem] sm:p-4 flex mb-4 sm:m-0 pl-2 h-[6rem] sm:h-[6.5rem] justify-around items-center shadow-lg sm:shadow-xl border border-slate-300 rounded-lg bg-[#f0f2f5]">
                     <div className="h-[4rem] px-3 flex justify-center rounded-lg items-center bg-[#E43A19]"><i className="fa text-black fa-2x fa-light fa-chalkboard-user"></i></div>
-                    <div className="px-2">
+                    <div className="px-3">
                         <h3 className="font-['Poppins'] text-xl font-medium">Best Instructors</h3>
                         <p className="font-['Switzer'] text-sm text-slate-600">we have highly skilled and highly experienced instructors around the globe</p>
                     </div>
                 </div>
-                <div className=" sm:w-[25rem] sm:p-5 flex mt-4  sm:m-0 mb-4 h-[6rem] sm:h-[6.5rem] justify-around items-center shadow-lg sm:shadow-xl border border-slate-400 p-3 rounded-lg bg-[#f0f2f5]">
-                    <div className="px-4 py-3 bg-yellow-400 rounded-lg"></div>
-                    <div>
-                        <h3>Best Instructors</h3>
-                        <p>we have highly skilled and highly experienced instructors around the globe</p>
+                <div className=" sm:w-[25rem] sm:p-4 flex mt-4  sm:m-0 mb-4 h-[6rem] sm:h-[6.5rem] justify-around items-center shadow-lg sm:shadow-xl border border-slate-300 p-3 rounded-lg bg-[#f0f2f5]">
+                    <div className="h-[4rem] px-3 flex justify-center items-center  bg-[#020205] rounded-lg"> <i className="fa fa-2x fa-solid text-white fa-users-rectangle"></i></div>
+                    <div className="px-3">
+                        <h3 className="font-['Poppins'] text-xl font-medium">Best Instructors</h3>
+                        <p className="font-['Switzer'] text-sm  text-slate-600">we have highly skilled and highly experienced instructors around the globe</p>
                     </div>
                 </div>
-                <div className=" sm:w-[25rem] sm:p-5 flex mt-4 sm:m-0 h-[6rem] sm:h-[6.5rem] pl-2 justify-around items-center shadow-lg sm:shadow-xl border border-slate-400 rounded-lg bg-[#f0f2f5]">
+                <div className=" sm:w-[25rem] sm:p-4 flex mt-4 sm:m-0 h-[6rem] sm:h-[6.5rem] pl-2 justify-around items-center shadow-lg sm:shadow-xl border border-slate-300 rounded-lg bg-[#f0f2f5]">
                     <div className="h-[4rem] flex px-3 justify-center items-center rounded-lg  bg-[#111F4D]"><i className="fa text-slate-100 fa-2x fa-light fa-people-arrows"></i> </div>
-                    <div className="px-2">
+                    <div className="px-3">
                         <h3 className="font-['Poppins'] text-xl  font-medium ">Best Instructors</h3>
                         <p className="font-['Switzer'] text-sm text-slate-600 ">we have highly skilled and highly experienced instructors around the globe</p>
                     </div>
