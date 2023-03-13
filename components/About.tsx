@@ -39,9 +39,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full mt-8">
+            <div className="w-full mt-10 sm:mt-[5rem]">
                <h2 className="font-['Poppins'] text-center text-[2.2rem] sm:text-[2.5rem] font-semibold">Our Popular Courses</h2> 
-            <div className="w-full flex flex-col flex-wrap sm:flex-row sm:justify-evenly  sm:mt-4 items-center min-h-[50vh] ">
+            <div className="w-full flex flex-col flex-wrap sm:flex-row sm:justify-evenly  sm:mt-[4rem] items-center min-h-[50vh] ">
                 <div className="w-[25rem] h-[27rem] mt-3 sm:m-0 rounded-xl shadow-lg">
                     <div className="w-full h-[14rem]">
                         <img src="BeginnerCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
