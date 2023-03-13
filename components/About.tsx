@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
     <div className="relative">
-      <section className="h-screen w-full bg-[#F2F4F7] flex justify-center  before:content-[''] 
+      <section className="min-h-screen w-full bg-[#F2F4F7] flex justify-center  before:content-[''] 
       before:absolute before:top-0 before:w-full before:h-[5rem] before:z-10 before:bg-gradient-to-b before:from-[#ECF0FA] before:to-[#F2F4F7]">
         <div className="w-full flex flex-col justify-around sm:w-[95vw] md:w-[90vw] pt-20 ">
             <div className="w-full h-[15rem] flex flex-col md:flex-row px-2 py-4">
@@ -41,6 +41,31 @@ const About = () => {
             </div>
             <div className="w-full mt-8">
                <h2 className="font-['Poppins'] text-center text-[2.2rem] sm:text-[2.5rem] font-semibold">Our Popular Courses</h2> 
+            <div className="w-full flex flex-col flex-wrap sm:flex-row sm:justify-evenly  sm:mt-4 items-center min-h-[50vh] ">
+                <div className="w-[25rem] h-[24rem] mt-3 sm:m-0 rounded-xl shadow-lg">
+                    <div className="w-full h-[14rem]">
+                        <img src="BeginnerCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
+                    </div> 
+                    <div className="h-[10rem] w-full flex flex-col justify-around ">
+                    </div>                   
+                </div>
+                <div className="w-[25rem] h-[24rem] mt-3 sm:m-0 rounded-xl shadow-lg">
+                    <div className="w-full h-[14rem]">
+                        <img src="IntermediateCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
+                    </div>
+                    <div className="h-[10rem] w-full flex flex-col justify-around ">
+
+                    </div>
+                </div>
+                <div className="w-[25rem] h-[24rem] mt-3 sm:m-0 rounded-xl shadow-lg">
+                    <div className="w-full h-[14rem]">
+                        <img src="ProfessionalCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
+                    </div>
+                    <div className="h-[10rem] w-full flex flex-col justify-around ">
+
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
       </section>
