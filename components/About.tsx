@@ -7,7 +7,7 @@ const About = () => {
       <section className="min-h-screen w-full bg-[#F2F4F7] flex justify-center  before:content-[''] 
       before:absolute before:top-0 before:w-full before:h-[5rem] before:z-10 before:bg-gradient-to-b before:from-[#ECF0FA] before:to-[#F2F4F7]">
         <div className="w-full flex flex-col justify-around sm:w-[95vw] md:w-[90vw] pt-20 ">
-            <div className="w-full h-[15rem] flex flex-col md:flex-row px-2 py-4">
+            <div className="w-full h-[15rem] flex flex-col justify-evenly items-center md:flex-row px-2 py-4">
                 <h2 className="text-xl md:text-2xl text-slate-900 font-['Poppins'] font-semibold">We are Proud to say that ,
                     <span>we are certified by - </span>
                 </h2>
