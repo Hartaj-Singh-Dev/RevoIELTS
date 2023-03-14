@@ -59,7 +59,7 @@ const Homepage = () => {
               for IELTS preparation
             </h1>
             <h2 className="font-['Switzer'] font-normal w-full  text-[1.4rem] tracking-tight sm:text-left  sm:text-[1.5rem] text-gray-500">
-            <p className=" sm:w-1/2">  Get quality couses with us with the best price ,
+            <p className="sm:w-4/5">  Get quality couses with us with the best price ,
                you can get the best couse from us
                We have top mentors . </p>
             </h2>
