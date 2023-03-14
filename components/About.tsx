@@ -42,7 +42,7 @@ const About = () => {
             <div className="w-full mt-10 sm:mt-[5rem]">
                <h2 className="font-['Poppins'] text-center text-[2.2rem] sm:text-[2.5rem] font-semibold">Our Popular Courses</h2> 
             <div className="w-full flex flex-col flex-wrap sm:flex-row sm:justify-evenly  sm:mt-[4rem] items-center min-h-[50vh] ">
-                <div className="w-[25rem] h-[26.5rem] mt-11 sm:mt-4 sm:m-0 rounded-xl shadow-lg">
+                <div className="w-[23rem] h-[26.5rem] mt-11 sm:mt-4 sm:m-0 rounded-xl shadow-lg">
                     <div className="w-full h-[14rem]">
                         <img src="BeginnerCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
                     </div> 
@@ -51,7 +51,7 @@ const About = () => {
                     <button className=" bg-[#020205] text-slate-100 font-['Poppins'] font-medium rounded-lg  text-lg w-[9rem] h-[3rem]">enroll now</button>
                     </div>                   
                 </div>
-                <div className="w-[25rem] h-[26.5rem] mt-11 sm:mt-4 sm:m-0 rounded-xl shadow-lg">
+                <div className="w-[23rem] h-[26.5rem] mt-11 sm:mt-4 sm:m-0 rounded-xl shadow-lg">
                     <div className="w-full h-[14rem]">
                         <img src="IntermediateCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
                     </div>
@@ -60,7 +60,7 @@ const About = () => {
                         <button className=" bg-[#E43A19] text-slate-100 font-['Poppins'] font-medium rounded-lg  text-lg w-[9rem] h-[3rem]">enroll now</button>
                     </div>
                 </div>
-                <div className="w-[25rem] h-[26.5rem] mt-11 mb-12 sm:mt-4 sm:m-0 rounded-xl shadow-lg">
+                <div className="w-[23rem] h-[26.5rem] mt-11 mb-12 sm:mt-4 sm:m-0 rounded-xl shadow-lg">
                     <div className="w-full h-[14rem]">
                         <img src="ProfessionalCourse.jpg" className="w-full rounded-xl h-auto max-h-full" style={{objectFit:"cover"}} alt="" />
                     </div>
