@@ -53,7 +53,7 @@ const Homepage = () => {
       <section className="h-[90vh] sm:flex sm:h-full w-full">
         <div className=" w-full md:w-1/2 h-full px-4 md:px-6 py-[3rem] md:py-[2rem] flex justify-end items-center">
           <div className="flex flex-col w-full h-full md:h-[90%] items-center justify-around ">
-            <h1 className="font-['Switzer'] text-left text-[3.2rem] sm:text-[4rem] md:text-[5.3rem]  antialiased tracking-tight  font-bold leading-none">
+            <h1 className="font-['Switzer'] text-left text-[3.2rem] sm:text-[4rem] md:text-[5.3rem]  antialiased tracking-tight  font-bold leading-[1.2]">
               Welcome to Rove,
              your premier destination,
               for IELTS preparation
