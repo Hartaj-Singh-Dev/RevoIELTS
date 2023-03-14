@@ -1,5 +1,6 @@
 import Homepage from "../components/Homepage"
 import About from "../components/About"
+import PageFooter from "../components/PageFooter"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
    <Homepage/>  
    <About/>
+   <PageFooter/>
     </div>
   )
 }
