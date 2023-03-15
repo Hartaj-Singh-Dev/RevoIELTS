@@ -64,7 +64,7 @@ const Homepage = () => {
                We have top mentors . </p>
             </h2>
             <button className="sm:mb-3 flex justify-center items-center md:mb-6 bg-[#2a2828] w-[14rem] px-[1rem] py-[1rem]">
-              <p className="font-['Poppins']  text-slate-300 text-2xl">enroll now</p>
+              <p className="font-['Poppins']  text-slate-100 text-2xl">enroll now</p>
             <ArrowOutwardIcon className="text-xl ml-2 text-slate-50"/>
             </button>
           </div>
