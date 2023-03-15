@@ -16,7 +16,7 @@ const About = () => {
                     <img src="pngwing.com.png" className="w-[14rem] mt-4 sm:mt-0 sm: ml-10" alt="" />
                 </div>
             </div>
-            <div className="w-full p-2 mt-2 mb-11 flex flex-col sm:flex-row flex-wrap items-center justify-around">
+            <div className="w-full hidden p-2 mt-2 mb-11  flex-col sm:flex-row flex-wrap items-center justify-around">
                 <div className=" sm:w-[25rem] sm:p-4 flex mb-4 sm:m-0  h-[6rem] sm:h-[8rem] justify-around items-center shadow-lg sm:shadow-xl border border-slate-300 rounded-lg bg-[#f0f2f5]">
                     <div className="h-[5.5rem] px-4 flex justify-center rounded-lg items-center bg-[#E43A19]"><i className="fa text-white fa-2x fa-light fa-chalkboard-user"></i></div>
                     <div className="px-3">
@@ -38,6 +38,21 @@ const About = () => {
                         <p className="font-['Switzer'] text-sm md:text-[1rem] text-slate-600 ">we have highly skilled and highly experienced instructors around the globe</p>
                     </div>
                 </div>
+            </div>
+            <div className="w-full flex flex-col flex-wrap sm:flex-row items-center justify-around">
+                <div className="w-[20rem] mt-[3rem] sm:mt-0 md:w-[28rem] h-[13rem] px-4 py-1 flex flex-col items-start justify-around">
+                    <div className="p-4 rounded-full bg-[#ea38194e]"><i className="fa text-[#E43A19] fa-2x fa-light fa-chalkboard-user"></i></div>
+                    <div><span className="font-['archivo'] text-xl md:text-[1.4rem] font-semibold">Best Instructors</span><p className="font-['Switzer'] text-[0.9rem] md:text-[1.1rem] text-slate-700">around the globe we have highly skilled and highly experienced instructors around the globe</p></div>
+                </div>
+                <div className="w-[20rem] mt-[3rem] sm:mt-0 md:w-[28rem] h-[13rem] px-4 py-1 flex flex-col items-start justify-around ">
+                    <div className="p-4 rounded-full bg-[#02020544]"><i className="fa text-[#020205] fa-2x fa-solid fa-users-rectangle"></i></div>
+                    <div><span className="font-['archivo'] text-xl md:text-[1.4rem] font-semibold">Best Instructors</span><p className="font-['Switzer'] text-[0.9rem]  md:text-[1.1rem] text-slate-700">around the globe we have highly skilled and highly experienced instructors around the globe</p></div>
+                </div>
+                <div className="w-[20rem] mt-[3rem] sm:mt-0 md:w-[28rem] h-[13rem] px-4 py-1 flex flex-col items-start justify-around ">
+                    <div className="p-4 bg-[#111f4d6d] rounded-full"><i className="fa text-[#111F4D] fa-2x fa-light fa-people-arrows "></i></div>
+                    <div><span className="font-['archivo'] text-xl md:text-[1.4rem] font-semibold">Best Instructors</span><p className="font-['Switzer'] text-[0.9rem]  md:text-[1.1rem] text-slate-700">around the globe we have highly skilled and highly experienced instructors around the globe</p></div>
+                </div>
+
             </div>
             <div className="w-full mb-11 mt-16 sm:mt-[5rem]">
                <h2 className="font-['Poppins'] text-center text-[2.2rem] sm:text-[2.5rem] font-semibold">Our Popular Courses</h2> 
