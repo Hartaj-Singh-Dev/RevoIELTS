@@ -30,9 +30,9 @@ const Homepage = () => {
           </div>
           <div className="hidden sm:flex mr-[4rem] md:mr-[7rem]">
             <ul className='list-none flex h-full items-center px-8'>
-             <li className="px-5 font-['Poppins']  text-xl subpixel-antialiased text-slate-600 hover:text-slate-500 cursor-pointer" >About</li>
-              <li className="px-5 font-['Poppins']  text-xl subpixel-antialiased text-slate-600 hover:text-slate-500 cursor-pointer" >Courses</li>
-             <li className="px-5 font-['Poppins']  text-xl subpixel-antialiased text-slate-600 hover:text-slate-500 cursor-pointer" >Contact</li>
+             <li className="px-5 font-['Montserrat']  text-xl subpixel-antialiased text-slate-700 hover:text-slate-500 cursor-pointer" >About</li>
+              <li className="px-5 font-['Montserrat']  text-xl subpixel-antialiased text-slate-700 hover:text-slate-500 cursor-pointer" >Courses</li>
+             <li className="px-5 font-['Montserrat']  text-xl subpixel-antialiased text-slate-700 hover:text-slate-500 cursor-pointer" >Contact</li>
             </ul>
           </div>
           <div className=' sm:hidden h-full flex mr-10 justify-center items-center '>
@@ -42,9 +42,9 @@ const Homepage = () => {
         {openNav && (
           <div ref={dropRef} className="z-30 sm:hidden transition flex justify-center items-center ease-in-out delay-100 duration-700 absolute h-[15rem] w-[14rem] right-1 top-[6.1rem] openNav ">
            <ul className='list-none flex flex-col justify-evenly h-full items-center p-8'>
-             <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-200 hover:text-slate-100 cursor-pointer" >About</li>
-              <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-200 hover:text-slate-100 cursor-pointer" >Courses</li>
-             <li className="px-5 font-['Poppins']  text-2xl subpixel-antialiased text-slate-200 hover:text-slate-100 cursor-pointer" >Contact</li>
+             <li className="px-5 font-['Montserrat']  text-2xl subpixel-antialiased text-slate-200 hover:text-slate-100 cursor-pointer" >About</li>
+              <li className="px-5 font-['Montserrat']  text-2xl subpixel-antialiased text-slate-200 hover:text-slate-100 cursor-pointer" >Courses</li>
+             <li className="px-5 font-['Montserrat']  text-2xl subpixel-antialiased text-slate-200 hover:text-slate-100 cursor-pointer" >Contact</li>
             </ul>
           
          </div>
@@ -58,7 +58,7 @@ const Homepage = () => {
              your premier destination,
               for IELTS preparation
             </h1>
-            <h2 className="font-['Switzer'] font-normal w-full  text-[1.4rem] tracking-tight sm:text-left  sm:text-[1.5rem] text-gray-500">
+            <h2 className="font-['Montserrat'] font-normal w-full  text-[1.4rem] tracking-tight sm:text-left  sm:text-[1.5rem] text-gray-500">
             <p className="sm:w-4/5">  Get quality couses with us with the best price ,
                you can get the best couse from us
                We have top mentors . </p>
